@@ -1,0 +1,77 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #181C29CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modalBody {
+    flex-basis: 100%;
+    max-width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.modalImg {
+    height: 230px;
+    text-align: center;   
+    background-color: #ECF3F8; 
+    border-radius: 20px;
+}
+
+.modalInfo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.generalInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.giftDescription {
+    font-size: 16px;
+    line-height: 148%;
+}
+
+.super {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-size: 16px;
+    line-height: 148%;
+}
+.super span:first-child {
+    flex-basis: 100%;
+    max-width: 184px;
+}
+
+.super span:nth-child(2) {
+    width: 40px;
+}
+
+.super div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.over {
+    overflow: hidden;
+}
